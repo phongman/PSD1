@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 300px) {
+    .services{
+     font-size:10px;
+    }
+  }
+
+.background{
+    background-image: url(./image/header-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.logo{
+    color:white;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    background: black;
+    position: fixed;
+    z-index: 1;
+}
+
+ul{
+    list-style: none;
+    width:350px;
+}
+
+.content{
+    text-align: center;
+    font-size: 50px;
+    padding: 200px 0;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.flex-center{
+    justify-content: center;
+}
+
+.flex-spacebtw{
+    justify-content: space-between;
+}
+
+.flex-spacearound{
+    justify-content: space-around;
+}
+
+.services{
+    background: rgba(15, 88, 117,0.5);
+}
+
+.services .container{
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.portfolio{
+    background: white;
+    color: black;
+}
+.icon{ 
+    position: absolute;
+    right: 14.2px; 
+}
+
+.twitter{
+    background: rgba(15, 88, 117,0.5);
+    height: 300px;
+    font-size: 20px;
+}
+
+.about{
+    background-image: url(./image/human-carmera.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.testimonials{
+    background: white;
+    height:200px;
+    color: black;  
+    font-size: 20px; 
+}
